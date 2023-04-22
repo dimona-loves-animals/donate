@@ -8,6 +8,6 @@ services:
       NODE_ENV: production
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.foster-dla.rule=Host(`donate.dimonalovesanimals.org`)"
-      - "traefik.http.routers.foster-dla.entrypoints=websecure"
-      - "traefik.http.routers.foster-dla.tls.certresolver=myresolver"
+      - "traefik.http.routers.donate-dla.rule=Host(`donate.dimonalovesanimals.org`)"
+      - "traefik.http.routers.donate-dla.entrypoints=websecure"
+      - "traefik.http.routers.donate-dla.tls.certresolver=myresolver"
