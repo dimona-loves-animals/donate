@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     build: .
     environment:
-      NODE_ENV: productiony
+      NODE_ENV: production
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.foster-dla.rule=Host(`donate.dimonalovesanimals.org`)"
